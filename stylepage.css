@@ -31,6 +31,9 @@ hr{
     width: 80%;
     margin: 5% 0%;
 }
+.none{
+    display: none;
+}
 
 body{
     display: flex;
@@ -330,7 +333,7 @@ body::-webkit-scrollbar-thumb {
 
     @media(max-width: 768px){
         *{
-            font-size: 12px;
+            font-size: 13px;
             margin: 0px;
             padding: 0px;
         }
@@ -343,6 +346,9 @@ body::-webkit-scrollbar-thumb {
         .post1 img{
             width: 80%;
             height: 30vw;
+        }
+        .none{
+            display:flex;
         }
 
     }
